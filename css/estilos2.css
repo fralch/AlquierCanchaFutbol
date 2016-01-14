@@ -4,18 +4,161 @@
 }
 #pagecancha article section #cuadrado2 {
   background-color: #128c30;
-  margin-left: 220px;
-  margin-top: -40px;
+  margin-left: 276px;
+  margin-top: -30px;
   width: 20px;
-  height: 27px;
+  height: 29px;
   position: absolute;
 }
 #pagecancha article section #logocancha2 img {
-  margin-top: -20px;
-  margin-left: 5px;
+  margin-top: -50px;
+  margin-left: 20px;
   background-color: #fff;
   border: 2px solid #000;
   width: 60px;
   border-radius: 50%;
   position: absolute;
+  z-index: 2;
+}
+#pagecancha article section h2 {
+  margin-top: -30px;
+  position: absolute;
+  margin-left: 25%;
+  font-size: 16px;
+  width: 185px;
+}
+#textocancha {
+  width: 270px;
+  margin: 1.5em 12% 1em 8%;
+  margin-top: 0.8em;
+}
+#textocancha p {
+  color: #000;
+}
+@media screen and (min-width: 350px) {
+  #pagecancha {
+    margin-left: 15px;
+  }
+  #pagecancha article section h2 {
+    margin-left: 20%;
+    padding-left: 20px;
+    padding-right: 21px;
+  }
+  #pagecancha article section #cuadrado2 {
+    margin-left: 278px;
+  }
+  iframe {
+    margin-left: 15px;
+  }
+}
+@media screen and (min-width: 475px) {
+  #pagecancha {
+    margin-left: 55px;
+    width: 375px;
+  }
+  #pagecancha article section h2 {
+    margin-left: 15%;
+    padding-left: 20px;
+    padding-right: 12%;
+  }
+  #pagecancha article section #cuadrado2 {
+    margin-left: 68%;
+  }
+  #pagecancha article section img {
+    width: 315px;
+  }
+  #pagecancha article #textocancha {
+    width: 310px;
+  }
+  iframe {
+    margin-left: -5%;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 540px) {
+  #pagecancha {
+    margin-left: 120px;
+    width: 375px;
+  }
+  #pagecancha article section h2 {
+    margin-left: 12%;
+    padding-left: 20px;
+    padding-right: 10%;
+  }
+  #pagecancha article section #cuadrado2 {
+    margin-left: 51%;
+  }
+  iframe {
+    margin-left: -5%;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 700px) {
+  #pagecancha {
+    margin-left: 10%;
+    width: 80%;
+  }
+  #pagecancha article section h2 {
+    width: 51%;
+    margin-left: 10%;
+    padding-left: 10px;
+  }
+  #pagecancha article section #logocancha2 {
+    margin-left: 5%;
+  }
+  #pagecancha article section #cuadrado2 {
+    margin-left: 70%;
+  }
+  #pagecancha article section {
+    width: 80%;
+    padding: 0;
+  }
+  #pagecancha article #textocancha {
+    width: 80%;
+  }
+  #pagecancha article #textocancha p {
+    font-size: 20px;
+  }
+  #pagecancha article section img {
+    margin: 0 12.5% 0 12.5%;
+    width: 100%;
+    display: inline-block;
+  }
+  iframe {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #pagecancha {
+    margin-top: -100px;
+  }
+  #pagecancha article section #logocancha2 img {
+    width: 80px;
+    border: 4px solid #1f1a17;
+  }
+  #pagecancha article section {
+    margin-top: 0;
+  }
+  #pagecancha article section h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-left: 10%;
+    margin-right: 0;
+    width: 30%;
+    padding-right: 0;
+  }
+  #pagecancha article section #cuadrado2 {
+    width: 30px;
+    height: 40px;
+    margin-left: 40%;
+    position: absolute;
+  }
+  #pagecancha article #textocancha {
+    margin-top: 50px;
+  }
+  #pagecancha article section #marcoestadio img {
+    height: 300px;
+  }
 }

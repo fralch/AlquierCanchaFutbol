@@ -12,18 +12,21 @@
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <scrip src="js/main.js"></scrip>
+        <style>body{overflow-y: scroll; overflow-x: hidden;}</style>
     </head>
     <body>
 
         <div class="header-container">
             <header class="wrapper">
-               <img src="img/logo.svg" alt="logo">
+                <img src="img/logo.svg" alt="logo">
                 <nav>
+                    <div id="lista">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Registrar</a></li>
+                        <li><a id="Home" href="index.html">Home</a></li>
+                        <li><a id="Registrar" href="#">Registrar</a></li>
                         <li><a href="#">Contactanos</a></li>
                     </ul>
+                    </div>
                 </nav>
             </header>
         </div>
@@ -31,14 +34,21 @@
         <div id="pagecancha">
             <article>
                <section>
+                    <div id="marcoestadio">
                    <img src="img/estadio.png" alt="">
+                   </div>
                    <div id="logocancha2">
                         <img src="img/cancha.png" alt="">
                     </div>
                     <h2>LA CANCHITA N</h2>
                     <div id="cuadrado2"></div>
                </section>
+               <div id="textocancha">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi accusamus esse ad distinctio, totam ab. Sit sequi et, maxime neque. Nam id illo magnam quae suscipit quisquam dolore, quod!</p>
+               </div>
             </article>
+
+           <iframe src="table/table.html" frameborder="0" height="970" id="iframe"></iframe>
         </div>
 
         
