@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?eizt22');
+    src:    url('fonts/icomoon.eot?eizt22#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?eizt22') format('truetype'),
+        url('fonts/icomoon.woff?eizt22') format('woff'),
+        url('fonts/icomoon.svg?eizt22#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.estrellita:before {
+	color:blue;
+    font-family: 'icomoon' !important;
+
+    content: "\e900";
+}
+

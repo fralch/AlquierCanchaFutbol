@@ -1,4 +1,16 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot');
+    src:    url('../fonts/icomoon.eot?eizt22#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf') format('truetype'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.svg?eizt22#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
 body
 	background-color #ecf0f1
 	font-family: 'Roboto', sans-serif;
@@ -49,6 +61,27 @@ body
 		border 2px solid none
 		padding 1em 2em 0.5em 0
 		margin 0.5em 0 1em 0
+
+
+#estrellas
+	margin-top 200px
+	margin-left 10px
+	position absolute
+
+
+#estrellas
+	a
+		text-decoration: none;
+		color white
+		
+#estrellas
+	a:hover
+		color yellow	
+
+.estrellita:before {
+    font-family: 'icomoon' !important;
+    content: "\e900";
+}
 
 #logocancha img
 	margin-top -20px
@@ -125,8 +158,8 @@ section
 					a
 						background-color #128C30
 						font-size 20px
-						padding 0.35em 1em 0.35em 0.6em
-						margin 0 0.3em 0 0.3em
+						padding 0.35em 1em 0.35em 1em
+						margin 0 
 
 	.main-container
 		margin-left 55px
@@ -163,6 +196,14 @@ section
 
 	.main-container
 		margin-left 115px
+
+	.header-container
+		.wrapper
+			nav 
+				ul li  
+					a
+						padding 0.35em 1em 0.35em 1em
+						margin 0 
 		
 
 
@@ -197,8 +238,9 @@ section
 						a
 							background-color #128C30
 							font-size 20px
-							padding 0.35em 2.2em 0.35em 2.2em	
-							margin-left 15px
+							padding 0.35em 2em 0.35em 2em	
+							margin 0
+							margin-bottom 50px
 
 
 	.main-container
@@ -240,9 +282,34 @@ section
 
 
 @media screen and (min-width: 1024px)
+
 	.header-container
 		margin-top 0
 		
+	#botonregis
+		a
+			background-color #128C30
+			padding 0.3em 1em 0.3em 1em
+			border-radius 10px
+			position absolute
+			color white
+			text-decoration none
+			margin-left 65%
+			margin-top -230px
+	#social
+		margin-left 88%
+		position absolute
+		margin-top -232px
+		
+
+	#social
+		img
+			width 32px
+
+	#social
+		#tw
+			width 29px
+
 	.header-container
 		.wrapper
 			img

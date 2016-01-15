@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?eizt22#iefix") format('embedded-opentype'), url("../fonts/icomoon.ttf") format('truetype'), url("../fonts/icomoon.woff") format('woff'), url("../fonts/icomoon.svg?eizt22#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 body {
   background-color: #ecf0f1;
@@ -33,6 +40,22 @@ body {
   border: 2px solid none;
   padding: 1em 2em 0.5em 0;
   margin: 0.5em 0 1em 0;
+}
+#estrellas {
+  margin-top: 200px;
+  margin-left: 10px;
+  position: absolute;
+}
+#estrellas a {
+  text-decoration: none;
+  color: #fff;
+}
+#estrellas a:hover {
+  color: #ff0;
+}
+.estrellita:before {
+  font-family: 'icomoon' !important;
+  content: "\e900";
 }
 #logocancha img {
   margin-top: -20px;
@@ -93,8 +116,8 @@ section h2 a {
   .header-container .wrapper nav ul li a {
     background-color: #128c30;
     font-size: 20px;
-    padding: 0.35em 1em 0.35em 0.6em;
-    margin: 0 0.3em 0 0.3em;
+    padding: 0.35em 1em 0.35em 1em;
+    margin: 0;
   }
   .main-container {
     margin-left: 55px;
@@ -118,6 +141,10 @@ section h2 a {
   .main-container {
     margin-left: 115px;
   }
+  .header-container .wrapper nav ul li a {
+    padding: 0.35em 1em 0.35em 1em;
+    margin: 0;
+  }
 }
 @media screen and (min-width: 700px) {
   .header-container .wrapper img {
@@ -135,8 +162,9 @@ section h2 a {
   .header-container .wrapper nav ul li a {
     background-color: #128c30;
     font-size: 20px;
-    padding: 0.35em 2.2em 0.35em 2.2em;
-    margin-left: 15px;
+    padding: 0.35em 2em 0.35em 2em;
+    margin: 0;
+    margin-bottom: 50px;
   }
   .main-container {
     margin-left: 60px;
@@ -162,6 +190,27 @@ section h2 a {
 @media screen and (min-width: 1024px) {
   .header-container {
     margin-top: 0;
+  }
+  #botonregis a {
+    background-color: #128c30;
+    padding: 0.3em 1em 0.3em 1em;
+    border-radius: 10px;
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 65%;
+    margin-top: -230px;
+  }
+  #social {
+    margin-left: 88%;
+    position: absolute;
+    margin-top: -232px;
+  }
+  #social img {
+    width: 32px;
+  }
+  #social #tw {
+    width: 29px;
   }
   .header-container .wrapper img {
     width: 500px;

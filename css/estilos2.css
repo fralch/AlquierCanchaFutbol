@@ -35,6 +35,29 @@
 #textocancha p {
   color: #000;
 }
+@media screen and (min-width: 320px) {
+  #comentarios h5 {
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #008000;
+  }
+  #comentarios textarea {
+    border: 1px solid #e7eff1;
+    border-radius: 10px;
+    width: 230px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+  }
+  #calificacion {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #calificacion .estrellita {
+    color: #ffa500;
+    text-decoration: none;
+  }
+}
 @media screen and (min-width: 350px) {
   #pagecancha {
     margin-left: 15px;
@@ -49,6 +72,27 @@
   }
   iframe {
     margin-left: 15px;
+  }
+  #comentarios h5 {
+    margin-left: 50px;
+    margin-top: 0;
+    color: #008000;
+  }
+  #comentarios textarea {
+    width: 260px;
+    border: 1px solid #e7eff1;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  #calificacion {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #calificacion .estrellita {
+    font-size: 25px;
+    color: #ffa500;
+    text-decoration: none;
   }
 }
 @media screen and (min-width: 475px) {
@@ -74,6 +118,29 @@
     margin-left: -5%;
     width: 400px;
   }
+  #comentarios h5 {
+    margin-left: 50px;
+    margin-top: 0;
+    color: #008000;
+    font-size: 15px;
+  }
+  #comentarios textarea {
+    width: 360px;
+    border: 1px solid #e7eff1;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  #calificacion {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+  }
+  #calificacion .estrellita {
+    font-size: 25px;
+    color: #ffa500;
+    text-decoration: none;
+  }
 }
 @media screen and (min-width: 540px) {
   #pagecancha {
@@ -86,11 +153,34 @@
     padding-right: 10%;
   }
   #pagecancha article section #cuadrado2 {
-    margin-left: 51%;
+    margin-left: 53%;
   }
   iframe {
     margin-left: -5%;
     width: 400px;
+  }
+  #comentarios h5 {
+    margin-left: 100px;
+    margin-top: 0;
+    color: #008000;
+    font-size: 15px;
+  }
+  #comentarios textarea {
+    width: 395px;
+    border: 1px solid #e7eff1;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+  #calificacion {
+    width: 80%;
+    margin-left: 15%;
+    margin-bottom: 10px;
+  }
+  #calificacion .estrellita {
+    font-size: 25px;
+    color: #ffa500;
+    text-decoration: none;
   }
 }
 @media screen and (min-width: 700px) {
@@ -128,6 +218,29 @@
     margin-left: 0;
     width: 100%;
   }
+  #calificacion {
+    width: 80%;
+    margin-left: 15%;
+    margin-bottom: 10px;
+  }
+  #calificacion .estrellita {
+    font-size: 30px;
+    color: #ffa500;
+    text-decoration: none;
+  }
+  #comentarios h5 {
+    margin-left: 100px;
+    margin-top: 0;
+    color: #008000;
+    font-size: 15px;
+  }
+  #comentarios textarea {
+    width: 520px;
+    border: 1px solid #e7eff1;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
 }
 @media screen and (min-width: 1024px) {
   #pagecancha {
@@ -143,7 +256,7 @@
   #pagecancha article section h2 {
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 15px;
+    padding-left: 4%;
     margin-left: 10%;
     margin-right: 0;
     width: 30%;
@@ -152,7 +265,7 @@
   #pagecancha article section #cuadrado2 {
     width: 30px;
     height: 40px;
-    margin-left: 40%;
+    margin-left: 43%;
     position: absolute;
   }
   #pagecancha article #textocancha {
@@ -160,5 +273,28 @@
   }
   #pagecancha article section #marcoestadio img {
     height: 300px;
+  }
+  #comentarios h5 {
+    margin-left: 10%;
+    margin-top: 0;
+    color: #008000;
+    font-size: 15px;
+  }
+  #comentarios textarea {
+    width: 80%;
+    border: 1px solid #e7eff1;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+  }
+  #calificacion {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+  }
+  #calificacion .estrellita {
+    font-size: 30px;
+    color: #ffa500;
+    text-decoration: none;
   }
 }
